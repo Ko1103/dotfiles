@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	name = 山浦功
+	email = ko.foot1103@gmail.com
+
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    ph = push origin HEAD
+[init]
+    defaultBranch = main
