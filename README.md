@@ -1,13 +1,6 @@
 # dotfiles
+install
 
-
-## Hyper
-
-```sh
-cd && rm .hyper.js
-```
-
-
-```sh
-ln -fs ${dotfiles directory}/.hyper.js ~
+```.sh
+sh ./link.sh
 ```
