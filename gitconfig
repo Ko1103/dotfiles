@@ -10,3 +10,5 @@
     ph = push origin HEAD
 [init]
     defaultBranch = main
+[core]
+    editor = nvim
