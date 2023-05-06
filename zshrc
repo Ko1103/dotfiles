@@ -18,15 +18,4 @@ path=(
   /Library/Apple/usr/bin
 )
 
-source ~/.git-prompt.sh
-
-# プロンプトのオプション表示設定
-GIT_PS1_SHOWDIRTYSTATE=true
-GIT_PS1_SHOWUNTRACKEDFILES=true
-GIT_PS1_SHOWSTASHSTATE=true
-GIT_PS1_SHOWUPSTREAM=auto
-
-setopt PROMPT_SUBST ; PS1='%c$(__git_ps1 " (%s)")\$ '
-
-zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
-autoload -Uz compinit && compinit
+eval "$(starship init zsh)"
