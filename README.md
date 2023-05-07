@@ -8,7 +8,6 @@ To use these dotfiles, clone this repository and run `link.sh`
 
 $ git clone git@github.com:Ko1103/dotfiles.git
 $ cd dotfiles
-$ sh ./brew.sh # Make sure that homebrew already installed.
 $ sh ./link.sh
 ```
 
