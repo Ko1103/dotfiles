@@ -7,5 +7,7 @@ fi
 
 brew bundle --global
 
-# for docker in Apple Silicon
-softwareupdate --install-rosetta --agree-to-license
+# Check if running on Apple Silicon
+if [[ $(uname -p) == "arm" ]]; then
+  softwareupdate --install-rosetta --agree-to-license
+fi

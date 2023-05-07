@@ -31,7 +31,8 @@ for name in config git-prompt.sh Brewfile gitconfig tmux.conf zshrc; do
   fi
 done
 
-# Refresh the current terminal with the newly installed configuration
+brew bundle --global
+
 exec zsh
 
 echo "👌 Carry on with git setup!"
