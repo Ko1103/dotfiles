@@ -19,3 +19,4 @@ path=(
 )
 
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=$PWD/.config/starship.toml
