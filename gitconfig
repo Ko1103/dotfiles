@@ -14,7 +14,10 @@
     editor = nvim
     pager = delta
 [interactive]
-   diffFilter = delta --color-only --features=decorations
+    diffFilter = delta --color-only --features=decorations
+[commit]
+    template =  ~/.gitmessage.txt
+
 [delta]
     side-by-side = true
 [delta "interactive"]
