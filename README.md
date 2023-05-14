@@ -1,6 +1,8 @@
 # Dotfiles
 This is a repository for my personal setup.
 
+<img width="600" alt="Terminal View" src="https://github.com/Ko1103/dotfiles/assets/22885290/b6db18ae-0f57-4567-a362-e87419737571">
+
 ## Usage
 To use these dotfiles, clone this repository and run `link.sh`
 
