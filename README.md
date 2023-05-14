@@ -13,6 +13,10 @@ $ cd dotfiles
 $ sh ./link.sh
 ```
 
+### Install alacritty
+Download and install app from [here](https://alacritty.org/).
+
+
 This will symlink all the dotfiles to your home directory.
 ## Contents
 This repository includes dotfiles for the following applications:
@@ -22,6 +26,7 @@ This repository includes dotfiles for the following applications:
 - starship
 - git
 - homebrew
+- alacritty
 
 ## License
 This repository is licensed under the MIT License. See the
