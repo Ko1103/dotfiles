@@ -4,6 +4,7 @@
 	email = ko.foot1103@gmail.com
 
 [alias]
+    br = branch
     st = status
     ci = commit
     co = checkout
