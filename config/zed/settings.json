@@ -21,7 +21,7 @@
       }
     },
     "Prisma": {
-      // npx prisma formatの結果とずれるのでoff
+      // npx prisma formatの結果とずれるのでoff, https://github.com/victorhqc/tree-sitter-prisma に修正入れる
       "format_on_save": "off"
     }
   },
