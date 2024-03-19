@@ -34,3 +34,6 @@ function rm_merged_branch {
 
 export N_PREFIX=$HOME
 export PREFIX=$HOME
+
+# see https://asdf-vm.com/guide/getting-started.html#_3-install-asdf wanring for mac
+ASDF_FORCE_PREPEND=yes . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
