@@ -18,6 +18,7 @@ path=(
   /usr/local/bin(N-/)
   /usr/local/sbin(N-/)
   /Library/Apple/usr/bin
+  $HOME/bin
 )
 
 eval "$(starship init zsh)"
@@ -31,4 +32,5 @@ function rm_merged_branch {
 	git branch --merged|egrep -v '\*|develop|master|main'|xargs git branch -d
 }
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+export N_PREFIX=$HOME
+export PREFIX=$HOME

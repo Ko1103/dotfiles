@@ -1,3 +1,9 @@
+
 config/github-copilot/hosts.json
 config/gcloud
 config/iterm2
+# Mac OS
+.DS_Store
+
+# nvim
+config/nvim
