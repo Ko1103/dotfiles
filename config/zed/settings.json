@@ -7,14 +7,23 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "theme": "Andromeda",
   "buffer_font_size": 15,
-  "formatter": {
-    "external": {
-      "command": "node_modules/.bin/prettier",
-      "arguments": [
-        "--stdin-filepath",
-        "{buffer_path}"
-      ]
+  "language_overrides": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
     }
   },
+  "vim_mode": true,
+  "format_on_save": "on",
+  "inlay_hints": {
+    "enabled": true
+  }
 }
