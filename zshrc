@@ -32,6 +32,9 @@ function rm_merged_branch {
 	git branch --merged|egrep -v '\*|develop|master|main'|xargs git branch -d
 }
 
+. "$HOME/.cargo/env"
+
+# for asdf
 export N_PREFIX=$HOME
 export PREFIX=$HOME
 
