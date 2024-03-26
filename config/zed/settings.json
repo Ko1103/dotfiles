@@ -21,13 +21,13 @@
       }
     },
     "Prisma": {
-      // npx prisma formatの結果とずれるのでoff, https://github.com/victorhqc/tree-sitter-prisma に修正入れる
-      "format_on_save": "off"
+      "tab_size": 2,
+      "format_on_save": "on"
     }
   },
   "vim_mode": true,
   "format_on_save": "on",
   "inlay_hints": {
-    "enabled": true
+    "enabled": false
   }
 }
