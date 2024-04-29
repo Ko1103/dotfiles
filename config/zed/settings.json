@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "theme": "Andromeda",
-  "buffer_font_size": 15,
+  "buffer_font_size": 12,
   "language_overrides": {
     "JavaScript": {
       "code_actions_on_format": {
