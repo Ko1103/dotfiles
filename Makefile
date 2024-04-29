@@ -1,8 +1,14 @@
-# This target installs dependencies using Homebrew
+BIN_DIR := .bin
+
+rosetta:
+	@$(BIN_DIR)/rosetta.sh
+
+## Homebrew
+
 brew:
-	brew bundle --file=.bin/Brewfile
+	brew bundle --file=@$(BIN_DIR)/Brewfile
 update-brewfile:
-	brew bundle dump --force --file=.bin/Brewfile
+	brew bundle dump --force --file=@$(BIN_DIR)/Brewfile
 
 help:
 	@echo "Commands"
