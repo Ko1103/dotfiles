@@ -28,6 +28,9 @@
   "vim_mode": true,
   "format_on_save": "on",
   "inlay_hints": {
-    "enabled": true
+    "enabled": false
+  },
+  "chat_panel": {
+    "button": false
   }
 }

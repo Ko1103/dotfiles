@@ -1,9 +1,11 @@
 # Dotfiles
+
 This is a repository for my personal setup.
 
 <img width="600" alt="Terminal View" src="https://github.com/Ko1103/dotfiles/assets/22885290/b6db18ae-0f57-4567-a362-e87419737571">
 
 ## Usage
+
 To use these dotfiles, clone this repository and run `link.sh`
 
 ```script
@@ -14,8 +16,23 @@ $ sh ./link.sh
 ```
 
 This will symlink all the dotfiles to your home directory.
+
+### Homebrew
+
+There are two make commands to help setup Homebrew and update the Brewfile.
+
+```script
+# Setup Homebrew
+$ make brew
+
+# Update Brewfile
+$ make update-brewfile
+```
+
 ## Contents
+
 This repository includes dotfiles for the following applications:
+
 - zsh
 - tmux
 - neovim
@@ -24,5 +41,6 @@ This repository includes dotfiles for the following applications:
 - homebrew
 
 ## License
+
 This repository is licensed under the MIT License. See the
 LICENSE
