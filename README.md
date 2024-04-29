@@ -22,7 +22,7 @@ This will symlink all the dotfiles to your home directory.
 There are two make commands to help setup Homebrew and update the Brewfile.
 
 ```script
-# Setup Homebrew
+# Install packages with Brewfile
 $ make brew
 
 # Update Brewfile
