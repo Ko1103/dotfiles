@@ -1,8 +1,8 @@
 # This target installs dependencies using Homebrew
 brew:
-	brew bundle
+	brew bundle --file=.bin/Brewfile
 update-brewfile:
-	brew bundle dump --force
+	brew bundle dump --force --file=.bin/Brewfile
 
 help:
 	@echo "Commands"
