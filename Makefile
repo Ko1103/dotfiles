@@ -14,5 +14,6 @@ update-brewfile:
 
 help:
 	@echo "Commands"
+	@echo " rosetta : Install rosetta2 for M1 Mac(Arm)"
 	@echo " brew : Install packages from Brewfile"
 	@echo " update-brewfile : Update Brewfile with currently installed packages"
