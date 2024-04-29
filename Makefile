@@ -1,14 +1,16 @@
 BIN_DIR := .bin
 
+.PHONY: rosetta
+
 rosetta:
-	@$(BIN_DIR)/rosetta.sh
+	sh $(BIN_DIR)/rosetta.sh
 
 ## Homebrew
 
 brew:
-	brew bundle --file=@$(BIN_DIR)/Brewfile
+	brew bundle --file=$(BIN_DIR)/Brewfile
 update-brewfile:
-	brew bundle dump --force --file=@$(BIN_DIR)/Brewfile
+	brew bundle dump --force --file=$(BIN_DIR)/Brewfile
 
 help:
 	@echo "Commands"
