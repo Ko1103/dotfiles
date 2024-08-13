@@ -29,6 +29,11 @@ $ make brew
 $ make update-brewfile
 ```
 
+### Raycast
+
+Importする
+- 2024/8/13 パスワード ko1103yama
+
 ## Contents
 
 This repository includes dotfiles for the following applications:
