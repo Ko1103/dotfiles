@@ -1,6 +1,5 @@
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "ngrok/ngrok"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
@@ -24,14 +23,19 @@ brew "tmux"
 brew "tree"
 cask "brave-browser"
 cask "discord"
+cask "firefox"
 cask "font-fira-code-nerd-font"
 cask "ngrok"
 cask "notion-calendar"
 cask "postman"
+cask "visual-studio-code"
 mas "Endel", id: 1346247457
-mas "LINE", id: 539883307
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
 mas "Microsoft Excel", id: 462058435
-mas "Slack", id: 803453959
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 vscode "denoland.vscode-deno"
 vscode "esbenp.prettier-vscode"
