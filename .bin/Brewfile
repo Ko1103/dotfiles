@@ -21,6 +21,7 @@ brew "rcm"
 brew "starship"
 brew "tmux"
 brew "tree"
+cask "1password"
 cask "brave-browser"
 cask "cursor"
 cask "discord"
@@ -31,7 +32,9 @@ cask "notion-calendar"
 cask "postman"
 cask "raycast"
 cask "slack"
+cask "tableplus"
 cask "visual-studio-code"
+cask "zoom"
 mas "Endel", id: 1346247457
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
