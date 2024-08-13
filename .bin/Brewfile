@@ -29,6 +29,7 @@ cask "font-fira-code-nerd-font"
 cask "ngrok"
 cask "notion-calendar"
 cask "postman"
+cask "raycast"
 cask "slack"
 cask "visual-studio-code"
 mas "Endel", id: 1346247457
