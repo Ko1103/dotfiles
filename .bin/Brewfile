@@ -37,7 +37,6 @@ cask "zoom"
 mas "Endel", id: 1346247457
 mas "Microsoft Excel", id: 462058435
 mas "Xcode", id: 497799835
-vscode "denoland.vscode-deno"
 vscode "esbenp.prettier-vscode"
 vscode "github.copilot"
 vscode "github.copilot-chat"
